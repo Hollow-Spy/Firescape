@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &211700720105455178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211700720105455179}
+  - component: {fileID: 211700720105455176}
+  - component: {fileID: 211700720105455177}
+  m_Layer: 0
+  m_Name: Triggerfakefloor2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &211700720105455179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211700720105455178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.598, y: 3.055, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &211700720105455176
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211700720105455178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0875113, y: -0.0889138}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2342763, y: 0.08297706}
+  m_EdgeRadius: 0
+--- !u!114 &211700720105455177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211700720105455178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8d613dd1f690c42a4ac7787ba0b37e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  block1: {fileID: 0}
+  block2: {fileID: 0}
+  body2: {fileID: 0}
+  animator: {fileID: 0}
+  shoty: {fileID: 0}
+  fallingsfx: {fileID: 822923228515540737, guid: 33713d2497bad824580f34691e5b99bd,
+    type: 3}
+  playerbody: {fileID: 0}
+  impactsfx: {fileID: 8313831159953203180, guid: 2af061691ba545940aa7319b678b94c9,
+    type: 3}
+  woodsfx: {fileID: 7229335414339450209, guid: 6da55c243d79626469cb3cd767a6781a, type: 3}
+  fadein: {fileID: 529928545010148930, guid: 01e88dd5d08fff04d8b365bc17f02b4c, type: 3}
+  camerascript: {fileID: 0}
+  shake: {fileID: 0}
+  playercontroller: {fileID: 0}
+  knockdownscript: {fileID: 0}
+  music: {fileID: 0}
